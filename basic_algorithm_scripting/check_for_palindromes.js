@@ -19,7 +19,11 @@
 
 // Here are some helpful links:
 
-// String.prototype.replace() String.prototype.toLowerCase()
+// String.prototype.replace()
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace
+
+// String.prototype.toLowerCase()
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase
 
 
 function palindrome(str) {
