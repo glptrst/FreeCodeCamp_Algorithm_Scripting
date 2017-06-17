@@ -22,6 +22,13 @@ function factorialize(num) {
   return result;
 }
 
+function factorializeRecursive(num) {
+  if (num == 1)
+    return 1;
+  else 
+    return num * factorializeRecursive(num -1);
+}
+
 
 // factorialize(5) should return a number.
 // factorialize(5) should return 120.
